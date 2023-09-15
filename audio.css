@@ -1,0 +1,23 @@
+body{
+    align-items: center;
+    justify-content: space-around
+
+}
+#playPause{
+   padding-left: 600px;
+   padding-top: 300px;
+   cursor: pointer;
+}
+#pause{
+    display: none;
+    position: fixed;
+    padding-left: 600px;
+    padding-top: 300px;
+}
+/* .show{
+    display: block;
+}
+.noshow{
+    display: none;
+} */
+

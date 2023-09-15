@@ -1,0 +1,135 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+.quest{
+    background-image: url(./blue\ question.jpg);
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 550px;
+    margin: 50px;
+    margin: 0 auto;
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.option2{
+    padding-right: 370px;
+}
+.answer{
+    background-color: transparent;
+    border: white solid 1px;
+    color: white;
+    height: 30px;
+    width: 200px;
+    padding-left: 3px;
+    margin-left: 20px;
+    margin-top: -30px;
+    text-align: center;
+}
+.answer::placeholder{
+    color: white;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.submit{
+    background-color: transparent;
+    border: white solid 2px;
+    margin-top: 35px ;
+    margin-left: 130px;
+    justify-content: center;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+.bluebar{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #0372ff, #3c92ff );
+    margin-left: 250px;
+    margin-top: 50px;
+    position: relative;
+    top: 80px;
+    right: -250px;
+}
+.para1{
+    color: #c5bdff;
+    text-align: center;
+    padding-top: 30px;
+}
+.circle{
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to top, #044ff8, #0372ff );
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 2px;
+}
+.para2{
+    color: #fffeff;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+}
+
+.para4{
+    text-align: center;
+    color: #fffeff;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.para5{
+    text-align: center;
+    color: #c6c6ff;
+    font-size: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.result{
+    display: none;
+}
+.again{
+    text-decoration: none;
+    border-radius: 0;
+    color: white;
+    border: white solid 2px;
+    height: 400px;
+    position: relative;
+    top: 10px;
+    left: 90px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+}
+.again:hover{
+    background-color: white;
+    color: black;
+}
+.show{
+    display: block;
+}
+.noshow{
+    display: none;
+}
